@@ -1,6 +1,6 @@
-# 
+# Managing Software Projects
 
-
+Running a real software project: methodologies, planning, tracking, risk, and the people skills that hold a team together.
 
 Part of the [Yaaddi](https://github.com/yaaddi-courses) course catalog — a
 spaced-repetition flashcard course, ready to build and validate with the
