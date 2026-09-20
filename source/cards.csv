@@ -35,7 +35,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 34,7,select_blank,exercise,32,"Agile is a ___, not one fixed process.",mindset|font|logo,0,,,
 35,7,multiple_choice,exercise,32,What sits above any specific Agile framework?,Its values|A font|A logo,0,,,
 36,8,true_false,preview,37,The Product Owner owns the backlog.,,true,cards/card_36.png,,
-37,8,multiple_choice,main,,Name a defined Scrum role.,Product Owner|A font|A logo,0,,,"Scrum also has recurring ceremonies, like sprint planning and the daily standup — and the Product Owner owns the backlog."
+37,8,multiple_choice,main,,Name a defined Scrum role.,Product Owner|A font|A logo,0,,,"Scrum also has recurring ceremonies, like sprint planning and the daily standup — and the Product Owner owns the backlog. The Sprint Review is where the team demonstrates the completed work to stakeholders for feedback. The Scrum Master's role is to facilitate the process and remove impediments."
 38,8,true_false,exercise,37,Scrum includes recurring ceremonies.,,true,,,
 39,8,select_blank,exercise,37,The daily standup is a Scrum ___.,ceremony|logo|font,0,,,
 40,8,multiple_choice,exercise,37,Who typically owns the product backlog?,Product Owner|Scrum Master|Any developer,0,,,
