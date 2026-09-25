@@ -34,3 +34,4 @@ id,title,description,min_level,section,image,section_image
 33,Managing Change Requests,Handling a request to change scope after a project is already underway.,1,Tools and Closing a Project,unit33.png,
 34,Project Closure and Postmortems,Formally wrapping up a project and honestly reviewing how it actually went.,1,Tools and Closing a Project,unit34.png,
 35,Common Project Failure Patterns,The handful of mistakes that sink software projects again and again.,1,Tools and Closing a Project,unit35.png,
+36,Recap: Key Terms,Quick matching practice that revisits the key terms from earlier decks.,1,Review,unit36.png,
