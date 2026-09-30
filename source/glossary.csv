@@ -43,3 +43,6 @@ Async,"Short for asynchronous — communicating, like written updates instead of
 WBS,Work breakdown structure: a project split into smaller and smaller pieces of work until each can be estimated and assigned.,https://en.wikipedia.org/wiki/Work_breakdown_structure,
 WIP,Work in progress: the tasks that have been started but are not yet finished.,https://en.wikipedia.org/wiki/Kanban,
 DoD,Definition of done: the checklist a piece of work must satisfy before the team calls it finished.,https://en.wikipedia.org/wiki/Scrum_(software_development),
+Project managers,"People responsible for planning, running and delivering a project on time and within budget.",https://en.wikipedia.org/wiki/Project_manager,1
+Buffers,Extra time or budget added to an estimate to absorb uncertainty and delays.,https://en.wikipedia.org/wiki/Critical_chain_project_management,81
+Retrospectives,Regular team meetings that look back at recent work to decide what to keep doing and what to improve.,https://en.wikipedia.org/wiki/Retrospective#Software_development,189
