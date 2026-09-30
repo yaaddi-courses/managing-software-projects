@@ -6,13 +6,13 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 5,1,multiple_choice,exercise,2,What is a core PM responsibility?,Managing risk|All code|Logos,0,,,"Identifying and mitigating potential risks is crucial because it proactively prevents small issues from becoming catastrophic failures, unlike managing logos or writing code."
 6,2,true_false,preview,7,A project has a defined end.,,true,,,"Correct; projects are inherently temporary efforts designed to create a unique product or outcome, which distinguishes them from ongoing operations."
 7,2,multiple_choice,main,,What ends when a project finishes?,Defined end|Users|Code,0,,,"A product keeps evolving indefinitely, and a program is a group of related projects managed together."
-8,2,true_false,exercise,7,A program is a group of related projects.,,true,,,
-9,2,select_blank,exercise,7,A product keeps ___ indefinitely.,evolving|ending|shrinking,0,,,
-10,2,multiple_choice,exercise,7,Which term covers multiple related projects?,Program|Product|Task,0,,,
-11,3,true_false,preview,12,"Scope, time, and cost are tightly linked.",,true,,,
+8,2,true_false,exercise,7,A program is a group of related projects.,,true,,,True. A program is a group of related projects managed together to reach a larger goal.
+9,2,select_blank,exercise,7,A product keeps ___ indefinitely.,evolving|ending|shrinking,0,,,"A product keeps evolving indefinitely, while a project has a defined start and end."
+10,2,multiple_choice,exercise,7,Which term covers multiple related projects?,Program|Product|Task,0,,,A program is the term for multiple related projects managed together.
+11,3,true_false,preview,12,"Scope, time, and cost are tightly linked.",,true,,,"True. Scope, time and cost are linked: changing one usually affects the others."
 12,3,multi_select,main,,Pick the three iron triangle constraints.,Scope|Time|Cost|Font,0|1|2,,,Tightening one usually forces a tradeoff on one of the other two.
 13,3,true_false,exercise,12,You can usually fix all three constraints at once freely.,,false,,,Tightening one usually forces a tradeoff on one of the other two.
-14,3,select_blank,exercise,12,Fixing one side usually forces a ___ elsewhere.,tradeoff|bonus|shortcut,0,,,
+14,3,select_blank,exercise,12,Fixing one side usually forces a ___ elsewhere.,tradeoff|bonus|shortcut,0,,,"Fixing one side usually forces a tradeoff elsewhere, for example more scope costs more time or money."
 15,3,multiple_choice,exercise,12,Name one iron triangle constraint.,Cost|Font size|Logo color,0,,,"The iron triangle refers to the classic project management constraints: scope, time, and cost; therefore, cost is a valid constraint. Font size or logo color are design elements, not limiting factors for the project."
 16,4,true_false,preview,17,Stakeholder mapping identifies who has a real stake.,,true,,,"Stakeholder mapping is specifically designed to identify who has an interest in, or influence over, the outcome of your work. This helps you know exactly who needs to be managed."
 17,4,multiple_choice,main,,What does stakeholder mapping identify?,Everyone|The CEO|Developers,0,,,Do this before you start planning — every stakeholder has a real stake in the outcome.
@@ -26,19 +26,19 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 25,5,multiple_choice,exercise,22,What length is a charter typically?,Short|Full book|One word,0,,,"Charters should be short and highly focused; they are meant to be quick reference documents, not exhaustive manuals that would take up a full book."
 26,6,true_false,preview,27,Waterfall moves through fixed phases in sequence.,,true,,,"That's correct. Waterfall is a sequential methodology where you must complete one phase entirely before moving on to the next, unlike iterative models."
 27,6,multiple_choice,main,,When does Waterfall still make sense?,Stable requirements|Constant change|Unknown scope,0,,,"It moves through fixed phases in sequence, and struggles once requirements start changing late."
-28,6,true_false,exercise,27,Waterfall moves through phases in sequence.,,true,,,
-29,6,select_blank,exercise,27,Waterfall fits requirements that are truly ___.,stable|changing|unknown,0,,,
-30,6,multiple_choice,exercise,27,What does Waterfall struggle with?,Late changes|Fixed scope|Clear phases,0,,,
-31,7,true_false,preview,32,Agile values change most.,,true,,,
+28,6,true_false,exercise,27,Waterfall moves through phases in sequence.,,true,,,"True. Waterfall moves through its phases in sequence, finishing each before the next begins."
+29,6,select_blank,exercise,27,Waterfall fits requirements that are truly ___.,stable|changing|unknown,0,,,"Waterfall fits requirements that are truly stable, because changing them late is expensive."
+30,6,multiple_choice,exercise,27,What does Waterfall struggle with?,Late changes|Fixed scope|Clear phases,0,,,"Waterfall struggles with late changes, since earlier phases are already finished."
+31,7,true_false,preview,32,Agile values change most.,,true,,,True. Agile values responding to change over following a fixed plan.
 32,7,multiple_choice,main,,What does Agile value over a rigid plan?,Change response|More docs|Fixed scope,0,,,It also values working software over heavy documentation — and it's a mindset that sits above any single framework.
-33,7,true_false,exercise,32,Agile values working software over heavy documentation.,,true,,,
-34,7,select_blank,exercise,32,"Agile is a ___, not one fixed process.",mindset|font|logo,0,,,
-35,7,multiple_choice,exercise,32,What sits above any specific Agile framework?,Its values|A font|A logo,0,,,
-36,8,true_false,preview,37,The Product Owner owns the backlog.,,true,,,
+33,7,true_false,exercise,32,Agile values working software over heavy documentation.,,true,,,True. The Agile Manifesto values working software over comprehensive documentation.
+34,7,select_blank,exercise,32,"Agile is a ___, not one fixed process.",mindset|font|logo,0,,,"Agile is a mindset, a set of values, not one fixed process. Scrum and Kanban are frameworks built on it."
+35,7,multiple_choice,exercise,32,What sits above any specific Agile framework?,Its values|A font|A logo,0,,,Its values sit above any specific Agile framework; the frameworks are ways of putting them into practice.
+36,8,true_false,preview,37,The Product Owner owns the backlog.,,true,,,True. The Product Owner owns and orders the product backlog.
 37,8,multiple_choice,main,,Name a defined Scrum role.,Product Owner|A font|A logo,0,,,"Scrum also has recurring ceremonies, like sprint planning and the daily standup — and the Product Owner owns the backlog. The Sprint Review is where the team demonstrates the completed work to stakeholders for feedback. The Scrum Master's role is to facilitate the process and remove impediments."
-38,8,true_false,exercise,37,Scrum includes recurring ceremonies.,,true,,,
-39,8,select_blank,exercise,37,The daily standup is a Scrum ___.,ceremony|logo|font,0,,,
-40,8,multiple_choice,exercise,37,Who typically owns the product backlog?,Product Owner|Scrum Master|Any developer,0,,,
+38,8,true_false,exercise,37,Scrum includes recurring ceremonies.,,true,,,"True. Scrum includes recurring ceremonies such as planning, the daily standup, review and retrospective."
+39,8,select_blank,exercise,37,The daily standup is a Scrum ___.,ceremony|logo|font,0,,,"The daily standup is a Scrum ceremony, a short recurring meeting held every day."
+40,8,multiple_choice,exercise,37,Who typically owns the product backlog?,Product Owner|Scrum Master|Any developer,0,,,The Product Owner typically owns the product backlog and decides its order.
 41,9,true_false,preview,42,Sprint planning decides what work to commit.,,true,,,The entire point of sprint planning is to commit to a specific set of work items that the team promises to complete during the upcoming cycle. You aren't deleting or ignoring tasks; you are defining your scope.
 42,9,multiple_choice,main,,What does sprint planning decide?,Commitment|Company logo|Font choice,0,,,"It happens before each sprint begins, informed by priority and the team's capacity."
 43,9,true_false,exercise,42,Sprint planning considers team capacity.,,true,,,"Yes, capacity is vital because the plan must be realistic. The team has to factor in their available time and bandwidth—including holidays or meetings—to ensure they don't overcommit themselves."
@@ -46,12 +46,12 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 45,9,multiple_choice,exercise,42,What informs what a team commits to?,Priority|Random choice|Coin flip,0,,,"Commitments should always be guided by business priority, meaning the work that delivers the highest value or addresses the biggest risk gets chosen first. Random choices are inefficient and don't align with product goals."
 46,10,true_false,preview,47,Kanban limits how much work is in progress.,,true,,,"That is correct; WIP (Work In Progress) limits are Kanban’s defining feature. They prevent bottlenecks by forcing the team to finish existing tasks before starting new ones, keeping flow smooth."
 47,10,multiple_choice,main,,What does Kanban limit?,WIP|Team size|Meeting length,0,,,It visualizes that work flowing through columns on a board.
-48,10,true_false,exercise,47,Kanban visualizes work moving through columns.,,true,,,
-49,10,select_blank,exercise,47,Kanban limits work in ___ at once.,progress|the backlog|meetings,0,,,
-50,10,multiple_choice,exercise,47,What does Kanban use to visualize flow?,Columns|Fonts|Logos,0,,,
-51,11,true_false,preview,52,Scrumban blends Scrum and Kanban.,,true,,,
+48,10,true_false,exercise,47,Kanban visualizes work moving through columns.,,true,,,"True. A Kanban board shows work moving through columns such as To Do, Doing and Done."
+49,10,select_blank,exercise,47,Kanban limits work in ___ at once.,progress|the backlog|meetings,0,,,"Kanban limits work in progress, so the team finishes items before starting new ones."
+50,10,multiple_choice,exercise,47,What does Kanban use to visualize flow?,Columns|Fonts|Logos,0,,,"Kanban uses columns to visualize flow, one per stage that work moves through."
+51,11,true_false,preview,52,Scrumban blends Scrum and Kanban.,,true,,,True. Scrumban blends Scrum's routines with Kanban's flow-based board.
 52,11,multiple_choice,main,,What does Scrumban combine?,"Scrum, Kanban|Waterfall, Agile|Two logos",0,,,"It borrows Scrum's structure and Kanban's continuous flow, using a flexible, limited-WIP board."
-53,11,true_false,exercise,52,Scrumban can use a limited-WIP board.,,true,,,
+53,11,true_false,exercise,52,Scrumban can use a limited-WIP board.,,true,,,True. Scrumban can use a Kanban board with a work-in-progress limit.
 54,11,select_blank,exercise,52,Scrumban blends structure with continuous ___.,flow|logos|fonts,0,,,"Scrumban is designed to maintain a steady, uninterrupted workflow, which is best described as continuous flow. Logos and fonts are design elements and have nothing to do with process management."
 55,11,multiple_choice,exercise,52,What does Scrumban borrow from Scrum?,Structure|A logo|A font,0,,,"It takes the established framework and rhythm of Scrum, specifically its structure, while adopting Kanban's focus on flow. Logos and fonts are irrelevant when discussing project methodology."
 56,12,true_false,preview,57,The best methodology depends on your team.,,true,,,This is absolutely true because methodologies are just tools; the best tool depends entirely on the specific job and the people doing the work.
@@ -73,7 +73,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 72,15,multiple_choice,main,,What does planning poker help a team do?,Agree fast|Pick logo|Choose font,0,,,"Everyone reveals their story-point guess at the same time, so no one's guess anchors the others."
 73,15,true_false,exercise,72,Everyone reveals their guess at the same time.,,true,,,"Yes, revealing guesses simultaneously ensures that every participant sees the full range of estimates without any single person influencing the group before they have spoken."
 74,15,select_blank,exercise,72,Planning poker estimates ___ points.,story|font|logo,0,,,"Planning poker is a technique used to estimate effort based on user stories, not visual assets like fonts or logos."
-75,15,multiple_choice,exercise,72,Why reveal guesses at the same time?,Avoid anchoring|Save paper|Look formal,0,,,
+75,15,multiple_choice,exercise,72,Why reveal guesses at the same time?,Avoid anchoring|Save paper|Look formal,0,,,"Revealing guesses at the same time avoids anchoring, where the first number spoken sways everyone else's estimate."
 76,16,true_false,preview,77,The critical path is the longest task chain.,,true,,,"That's right; the critical path is defined by the longest sequence of dependent tasks, as this chain determines the absolute minimum time needed to finish the project."
 77,16,multiple_choice,main,,What does the critical path set?,Min timeline|The budget|Team size,0,,,"It's the longest chain of dependent tasks — if any task on it slips, the whole project slips too."
 78,16,true_false,exercise,77,The critical path is the shortest chain of tasks.,,false,,,"It is the longest chain of dependent tasks, not the shortest."
@@ -83,7 +83,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 82,17,multiple_choice,main,,What does a buffer give a schedule?,Extra room|Zero slack|A guarantee,0,,,"Because estimates are never perfectly accurate, that extra room helps absorb surprises."
 83,17,true_false,exercise,82,Estimates are always perfectly accurate.,,false,,,"Estimates carry real uncertainty, which is exactly why buffers help."
 84,17,select_blank,exercise,82,A buffer is added to a schedule on ___.,purpose|accident|Fridays,0,,,"You add a buffer when you anticipate needing extra time for known risks or scope changes, which is its core purpose. It's not meant to cover every accident or just happen on Fridays."
-85,17,multiple_choice,exercise,82,Why include a buffer at all?,Absorb surprises|Look impressive|Save money,0,,,
+85,17,multiple_choice,exercise,82,Why include a buffer at all?,Absorb surprises|Look impressive|Save money,0,,,"A buffer absorbs surprises, so one delay does not push back the whole schedule."
 86,18,true_false,preview,87,A burndown chart shows how much work remains.,,true,,,That's right; the primary function of a burndown chart is to track the remaining effort or scope against time.
 87,18,multiple_choice,main,,What does a burndown chart show?,Work remaining|A logo|A font,0,,,"A burnup chart, by contrast, shows work completed, including any scope added along the way."
 88,18,true_false,exercise,87,A burnup chart can show added scope.,,true,,,"Correct, because the burnup chart tracks both completed work and total scope, making it perfect for visualizing added requirements."
@@ -97,12 +97,12 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 96,20,true_false,preview,97,Scope creep is unapproved growth in a project's scope.,,true,,,That’s exactly right. Scope creep happens when requirements grow beyond the original agreement without proper change control.
 97,20,multiple_choice,main,,What is scope creep?,Unapproved growth|Approved growth|No growth,0,,,"It tends to happen quietly, in small pieces — catch it early, before it grows further."
 98,20,true_false,exercise,97,"Scope creep tends to happen quietly, in small pieces.",,true,,,"This is true because small, seemingly harmless additions accumulate over time, making it difficult to identify until the project is significantly delayed."
-99,20,select_blank,exercise,97,"Catch scope creep ___, not after it grows.",early|never|late,0,,,
-100,20,multiple_choice,exercise,97,What makes an addition scope creep?,Not approved|Was approved|Its tiny,0,,,
-101,21,true_false,preview,102,A daily standup should stay short.,,true,,,
+99,20,select_blank,exercise,97,"Catch scope creep ___, not after it grows.",early|never|late,0,,,"Catch scope creep early, while it is small and easy to push back on, not after it grows."
+100,20,multiple_choice,exercise,97,What makes an addition scope creep?,Not approved|Was approved|Its tiny,0,,,"Scope creep is an addition that was not approved, so it grows the work without a decision."
+101,21,true_false,preview,102,A daily standup should stay short.,,true,,,True. A daily standup should stay short so it informs the team without turning into a long meeting.
 102,21,multiple_choice,main,,What should a standup focus on?,Progress|Full report|Approvals,0,,,"It should stay short, and covering blockers is normal — it's for the team, not a status report to a boss."
-103,21,true_false,exercise,102,A standup is meant to stay short.,,true,,,
-104,21,select_blank,exercise,102,"A standup is for the team, not a ___.",boss report|blocker|update,0,,,
+103,21,true_false,exercise,102,A standup is meant to stay short.,,true,,,"True. A standup is meant to be short, often around 15 minutes."
+104,21,select_blank,exercise,102,"A standup is for the team, not a ___.",boss report|blocker|update,0,,,"A standup is for the team to coordinate, not a report to a boss."
 105,21,multiple_choice,exercise,102,What is a common standup topic?,A blocker|A logo|A font,0,,,"A blocker is a common standup topic because it describes an obstacle preventing progress, which is exactly what the team needs to discuss and resolve."
 106,22,true_false,preview,107,Backlog grooming keeps the backlog ready to plan.,,true,,,The goal of backlog grooming is to ensure that the items are well-defined and prioritized so the team can effectively plan their work.
 107,22,multiple_choice,main,,What does grooming keep the backlog?,Plan ready|Frozen|Empty,0,,,"It's refined and reordered regularly, not just once, so it's always ready."
@@ -116,12 +116,12 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 115,23,multiple_choice,exercise,112,What happens if risk is caught too late?,Little options|Easy fix|No impact,0,,,"When risk is caught too late, the issue has usually compounded into an active crisis, which severely limits your available options for resolution."
 116,24,true_false,preview,117,Technical debt should be tracked as risk.,,true,,,Technical debt represents a structural weakness in code or systems; treating it as a risk helps teams prioritize paying down that 'debt' before it causes major failures.
 117,24,multiple_choice,main,,How should technical debt be treated?,Real risk|A complaint|Ignore it,0,,,"It's a tracked risk that's the whole team's concern, not just engineering's, and it can genuinely affect the plan."
-118,24,true_false,exercise,117,Technical debt can affect a project's plan.,,true,,,
-119,24,select_blank,exercise,117,Technical debt should be a ___ risk item.,tracked|hidden|ignored,0,,,
-120,24,multiple_choice,exercise,117,Who should care about technical debt?,Whole team|Engineers only|No one,0,,,
-121,25,true_false,preview,122,A definition of done is a shared checklist.,,true,,,
+118,24,true_false,exercise,117,Technical debt can affect a project's plan.,,true,,,"True. Technical debt makes future work slower and riskier, so it can change a project's plan."
+119,24,select_blank,exercise,117,Technical debt should be a ___ risk item.,tracked|hidden|ignored,0,,,"Technical debt should be a tracked risk item, so it is visible and planned for."
+120,24,multiple_choice,exercise,117,Who should care about technical debt?,Whole team|Engineers only|No one,0,,,"The whole team should care about technical debt, since everyone works in the code and feels its cost."
+121,25,true_false,preview,122,A definition of done is a shared checklist.,,true,,,True. A definition of done is a shared checklist that work must meet before it counts as finished.
 122,25,multiple_choice,main,,What is a definition of done?,Shared checklist|Private note|A guess,0,,,"It's explicit, not just shared informally, and the whole team agrees on it — for when work truly counts as finished."
-123,25,true_false,exercise,122,A definition of done should be explicit and shared.,,true,,,
+123,25,true_false,exercise,122,A definition of done should be explicit and shared.,,true,,,True. A definition of done works only when it is explicit and shared by the whole team.
 124,25,select_blank,exercise,122,A DoD defines when work is truly ___.,finished|started|planned,0,,,"The Definition of Done (DoD) establishes the criteria that must be met for work to be considered truly complete, not just started or planned."
 125,25,multiple_choice,exercise,122,Who should agree on the definition of done?,Whole team|One person|No one,0,,,"Since DoD impacts everyone's understanding of quality and completion, it requires consensus from the whole team, ensuring shared ownership."
 126,26,true_false,preview,127,A quality gate is a checkpoint work must pass.,,true,,,"Yes, think of it like an inspection point; nothing can proceed to the next stage until all required checks are completed and approved."
@@ -173,13 +173,13 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 172,35,multi_select,main,,Pick common project failure patterns.,Unclear goals|Scope creep|No tracking|Clear plans|Good tracking,0|1|2,,,"These patterns repeat again and again, not just once."
 173,35,true_false,exercise,172,Unclear goals are a common failure pattern.,,true,,,"This is true; if the team doesn't know exactly what success looks like, they can never achieve it efficiently or measure their progress accurately."
 174,35,select_blank,exercise,172,"Common project failure patterns repeat ___, not just once.",often|never|rarely,0,,,"Project failures are usually systemic issues, meaning the underlying problems tend to recur and must be addressed often if you want continuous improvement."
-175,35,multiple_choice,exercise,172,Give an example failure pattern.,No tracking|Clear goals|Honest reviews,0,,,
+175,35,multiple_choice,exercise,172,Give an example failure pattern.,No tracking|Clear goals|Honest reviews,0,,,"No tracking is an example failure pattern: without tracking progress and risks, problems are noticed too late."
 176,6,order,exercise,27,Order a project's phases.,Initiation|Planning|Execution|Closure,,,,"Every phase feeds the next: define why the project exists, plan how to do it, do the work, then formally close it out."
-177,8,order,exercise,37,Order these Scrum meetings.,Planning|Daily Standup|Review|Retrospective,,,,"A sprint opens with planning, runs on daily standups, and closes with a review of the work and a reflection on the process."
+177,8,order,exercise,37,"Order these Scrum meetings, first to last.",Planning|Daily Standup|Review|Retrospective,,,,"A sprint opens with planning, runs on daily standups, and closes with a review of the work and a reflection on the process."
 178,13,order,exercise,62,Order the steps to build a WBS.,List top-level deliverables|Break each into smaller pieces|Keep splitting until estimable|Assign an owner to each piece,,,,Decomposition stops once a piece is small enough to estimate and assign confidently.
 179,15,order,exercise,72,Order a planning poker round.,Present the story|Everyone picks a card|Reveal all cards at once|Discuss outliers and re-vote,,,,Revealing simultaneously is what keeps one estimator's guess from anchoring everyone else's.
 180,16,order,exercise,77,Order the steps to find the critical path.,List tasks and dependencies|Estimate each task's duration|Map every dependent task chain|Pick the longest chain,,,,The longest chain of dependent tasks is the critical path — it sets the project's minimum timeline.
-181,21,order,exercise,102,Order the classic standup questions.,What did I do yesterday|What will I do today|What is blocking me,,,,"These three questions keep the meeting focused on progress and blockers, not a status report."
+181,21,order,exercise,102,"Order the classic standup questions, first asked first.",What did I do yesterday|What will I do today|What is blocking me,,,,"These three questions keep the meeting focused on progress and blockers, not a status report."
 182,28,order,exercise,137,Order a typical retrospective's flow.,Set the stage|Gather data on the sprint|Discuss what to keep or change|Agree on action items,,,,Ending with concrete action items is what turns honest reflection into real improvement.
 183,8,true_false,preview,184,Sprint planning pulls work from the top of the Backlog.,,true,,,The Backlog is ordered by priority.
 184,8,multiple_choice,main,,Sprint planning pulls work from where?,Backlog|Retro notes|Demo,0,,,The team picks the top of the Backlog based on priority and capacity.
