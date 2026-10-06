@@ -201,3 +201,45 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 200,36,match_pairs,exercise,199,Pair every term with its gloss.,Backlog grooming↔Refining the backlog|Risk management↔Spot problems early|Mitigation↔Reduce a risk|Technical debt↔Shortcut cost later,,,,Each term is paired with its plain-language meaning.
 201,36,match_pairs,exercise,199,Which meaning fits each term?,Definition of done↔Finished checklist|Quality gate↔Required checkpoint|Leading without authority↔Influence without rank|Async↔Not live,,,,Each term is paired with its plain-language meaning.
 202,36,match_pairs,exercise,199,Connect the terms to what they mean.,Async↔Not live|Change request↔Formal scope change|Postmortem↔Honest after-review|Sprint Review↔Shows finished work,,,,Each term is paired with its plain-language meaning.
+203,1,multiple_choice,exam,,"A project manager keeps scope, time and risk:",Aligned|Hidden|Secret,0,,,The aim is to let the team deliver the work.
+204,2,multiple_choice,exam,,A project is defined by its:,Team size|End date|Product line,1,,,A product keeps evolving and a program groups related projects.
+205,2,true_false,exam,,A product has a defined end like a project.,,false,,,A product evolves indefinitely; a project ends.
+206,3,multiple_choice,exam,,"The iron triangle is scope, time and:",Cost|Quality|Risk,0,,,Tightening one usually forces a trade-off on another.
+207,8,multiple_choice,exam,,Stakeholder mapping happens before:,Retrospectives|Planning|Closure,1,,,It finds everyone with a real stake in the outcome.
+208,5,multiple_choice,exam,,A charter states a project's purpose and:,Salaries|Tools|Goals,2,,,It is written before work begins and kept short.
+209,6,multiple_choice,exam,,Waterfall suits projects with stable:,Requirements|Budgets only|Teams,0,,,It moves through fixed phases in sequence.
+210,6,true_false,exam,,Waterfall copes well when requirements keep changing.,,false,,,It struggles once requirements start shifting.
+211,7,multiple_choice,exam,,Agile values responding to:,Documents|Schedules|Change,2,,,It also values working software over heavy documentation.
+212,8,multiple_choice,exam,,The Product Owner owns the:,Backlog|Calendar|Budget,0,,,The team pulls work from the top of it.
+213,8,multiple_choice,exam,,Stakeholders give feedback on finished work at the:,Retrospective|Sprint Review|Standup,1,,,The Sprint Review shows finished work and gathers feedback.
+214,8,true_false,exam,,Sprint planning takes work from the bottom of the backlog.,,false,,,"The team picks from the top, based on priority and capacity."
+215,9,multiple_choice,exam,,Sprint planning decides what to:,Commit to|Cancel|Outsource,0,,,It happens before each sprint begins.
+216,10,multiple_choice,exam,,Kanban limits work in:,Backlog|Progress|Review,1,,,It visualizes work flowing through columns.
+217,11,multiple_choice,exam,,Scrumban blends Scrum and:,Waterfall|Prince|Kanban,2,,,"It uses a flexible, limited-WIP board."
+218,12,multiple_choice,exam,,A methodology should fit the team's:,Reality|Wishes|Fashion,0,,,"Consider its size, pace and product."
+219,13,multiple_choice,exam,,A work breakdown structure splits a:,Long meeting|Big project|Small task,1,,,Smaller pieces are easier to plan.
+220,14,multiple_choice,exam,,Story points measure relative:,Hours|Salary|Effort,2,,,They do not size exact hours or days.
+221,14,true_false,exam,,Story points are exact hours of work.,,false,,,They measure relative effort.
+222,15,multiple_choice,exam,,Planning poker reveals guesses:,Never|Together|One by one,1,,,No one's guess anchors the others.
+223,16,multiple_choice,exam,,The critical path is the longest chain of:,Meetings|Risks|Dependent tasks,2,,,"If any task on it slips, the project slips."
+224,17,multiple_choice,exam,,A schedule buffer absorbs:,Surprises|Salaries|Features,0,,,Estimates are never perfectly accurate.
+225,18,multiple_choice,exam,,A burndown chart shows work:,Rejected|Remaining|Completed,1,,,A burnup chart shows work completed.
+226,19,multiple_choice,exam,,Velocity measures a team's sprint:,Mood|Spending|Output,2,,,It is for that team's own forecasting.
+227,19,true_false,exam,,Velocity is a good way to compare two teams.,,false,,,It is meant for one team's own forecasting.
+228,20,multiple_choice,exam,,Scope creep is growth that is:,Funded|Unapproved|Planned,1,,,It tends to happen quietly in small pieces.
+229,21,multiple_choice,exam,,A daily standup should stay:,Optional|Formal|Short,2,,,"It is for the team, not a status report to a boss."
+230,22,multiple_choice,exam,,Backlog grooming keeps the backlog ready to:,Plan|Delete|Print,0,,,It is refined and reordered regularly.
+231,23,multiple_choice,exam,,Identifying risk early gives you more:,Deadlines|Options|Meetings,1,,,"Caught late, a risk leaves few options."
+232,24,multiple_choice,exam,,Technical debt should be tracked as a:,Feature|Budget|Risk,2,,,"It concerns the whole team, not just engineering."
+233,25,multiple_choice,exam,,A definition of done is a shared:,Checklist|Budget|Roster,0,,,The whole team agrees when work is truly finished.
+234,26,multiple_choice,exam,,A quality gate is a:,Meeting|Checkpoint|Deadline,1,,,Work must pass it before moving forward.
+235,27,multiple_choice,exam,,Leading without authority relies on trust and:,Orders|Titles|Clarity,2,,,A project manager often has no formal power over the team.
+236,28,multiple_choice,exam,,"A retrospective should be honest, not just:",Positive|Short|Weekly,0,,,The goal is real improvement.
+237,29,multiple_choice,exam,,Remote teams need deliberate:,Fewer tools|Async habits|Longer meetings,1,,,They bridge time zones.
+238,30,multiple_choice,exam,,Team conflict should be addressed:,Eventually|Privately only|Early,2,,,Unaddressed friction grows worse.
+239,31,multiple_choice,exam,,A status report leads with the headline:,Risk|Budget code|Name,0,,,Executives need what matters most.
+240,32,multiple_choice,exam,,A tool never replaces team:,Planning|Communication|Meetings,1,,,That matters more than any tool.
+241,33,multiple_choice,exam,,A change request formally asks to modify:,Staffing|Tools|Scope,2,,,Quietly folding changes in is risky.
+242,34,multiple_choice,exam,,A postmortem reviews how a project:,Went|Started|Is named,0,,,It should be honest even about failures.
+243,35,multiple_choice,exam,,Unclear goals are a common project:,Benefit|Failure pattern|Success factor,1,,,These patterns repeat again and again.
+244,36,multiple_choice,exam,,Slack in a schedule means spare:,Budget|Staff|Room,2,,,It absorbs surprises.
