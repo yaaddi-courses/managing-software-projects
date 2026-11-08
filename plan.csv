@@ -1,0 +1,40 @@
+section,deck,pack,level,keywords,terms,kind,main_card_id
+Foundations,What a Software Project Manager Does,What does a project manager keep aligned?,1,Project manager,Project manager,teach,2
+Foundations,Project vs Product vs Program,What ends when a project finishes?,1,Program|Product,Program|Product,teach,7
+Foundations,"The Iron Triangle: Scope, Time, Cost",Pick the three iron triangle constraints.,1,Iron triangle,Iron triangle,teach,12
+Foundations,Mapping Your Stakeholders,What does stakeholder mapping identify?,1,Stakeholder mapping,Stakeholder mapping,teach,17
+Foundations,Writing a Project Charter,What does a charter state?,1,Project charter,Project charter,teach,22
+Methodologies,Waterfall: When It Still Makes Sense,When does Waterfall still make sense?,1,Waterfall,Waterfall,teach,27
+Methodologies,Agile Values and Principles,What does Agile value over a rigid plan?,1,Agile,Agile,teach,32
+Methodologies,Scrum Roles and Ceremonies,Name a defined Scrum role.,1,Scrum|Product Owner|Scrum Master|Sprint|Sprint planning|Daily standup|Backlog,Scrum|Product Owner|Scrum Master|Sprint|Sprint planning|Daily standup|Backlog,teach,37
+Methodologies,Scrum Roles and Ceremonies,Sprint planning pulls work from where?,1,Sprint planning pulls work from where?,,teach,184
+Methodologies,Scrum Roles and Ceremonies,Which meeting shows finished work?,1,Sprint Review|Retrospective,Sprint Review|Retrospective,teach,189
+Methodologies,Sprint Planning Basics,What does sprint planning decide?,2,What does sprint planning decide?,,teach,42
+Methodologies,Kanban Fundamentals,What does Kanban limit?,2,Kanban|Work in progress,Kanban|Work in progress,teach,47
+Methodologies,Scrumban: Mixing Scrum and Kanban,What does Scrumban combine?,2,Scrumban,Scrumban,teach,52
+Methodologies,Choosing a Methodology for Your Team,What should drive a methodology choice?,2,What should drive a methodology choice?,,teach,57
+Planning and Estimation,Work Breakdown Structures,What does a WBS split apart?,2,Work breakdown structure,Work breakdown structure,teach,62
+Planning and Estimation,Story Points vs Time Estimates,What do story points measure?,2,Story points,Story points,teach,67
+Planning and Estimation,Planning Poker,What does planning poker help a team do?,2,Planning poker,Planning poker,teach,72
+Planning and Estimation,The Critical Path Method,What does the critical path set?,2,Critical path,Critical path,teach,77
+Planning and Estimation,Buffering for Uncertainty,What does a buffer give a schedule?,2,Buffer|Slack,Buffer|Slack,teach,82
+Execution and Tracking,Burndown and Burnup Charts,What does a burndown chart show?,2,Burndown chart|Burnup chart,Burndown chart|Burnup chart,teach,87
+Execution and Tracking,Tracking Team Velocity,What does velocity measure?,3,Velocity,Velocity,teach,92
+Execution and Tracking,Managing Scope Creep,What is scope creep?,3,Scope creep,Scope creep,teach,97
+Execution and Tracking,Running a Good Daily Standup,What should a standup focus on?,3,Status report,Status report,teach,102
+Execution and Tracking,Backlog Grooming,What does grooming keep the backlog?,3,Backlog grooming,Backlog grooming,teach,107
+Risk and Quality,Identifying and Mitigating Risk,Why identify risk early?,3,Risk management|Mitigation,Risk management|Mitigation,teach,112
+Risk and Quality,Technical Debt as a Project Risk,How should technical debt be treated?,3,Technical debt,Technical debt,teach,117
+Risk and Quality,Writing a Definition of Done,What is a definition of done?,3,Definition of done,Definition of done,teach,122
+Risk and Quality,Setting Quality Gates,What is a quality gate?,3,Quality gate,Quality gate,teach,127
+People and Communication,Leading Without Authority,What does leading without formal authority rely on?,3,Leading without authority,Leading without authority,teach,132
+People and Communication,Running Effective Retrospectives,What does a retrospective reflect on?,3,What does a retrospective reflect on?,,teach,137
+People and Communication,Managing Remote and Distributed Teams,What must remote management keep aligned?,4,Async,Async,teach,142
+People and Communication,Resolving Conflict on a Project Team,When should conflict be addressed?,4,When should conflict be addressed?,,teach,147
+People and Communication,Reporting Status to Executives,What do executives usually need?,4,What do executives usually need?,,teach,152
+Tools and Closing a Project,Project Management Tools Overview,What do PM tools help a team do?,4,What do PM tools help a team do?,,teach,157
+Tools and Closing a Project,Managing Change Requests,When does a change request happen?,4,Change request,Change request,teach,162
+Tools and Closing a Project,Project Closure and Postmortems,What does a postmortem review?,4,Postmortem,Postmortem,teach,167
+Tools and Closing a Project,Common Project Failure Patterns,Pick common project failure patterns.,4,Pick common project failure patterns.,,teach,172
+Review,Recap: Key Terms,Recap pack 38,4,Project manager|Program|Iron triangle|Stakeholder mapping|Project charter|Product Owner|Scrum Master|Work in progress|Scrumban|Work breakdown structure|Story points|Planning poker|Critical path|Buffer|Slack,,review,194
+Review,Recap: Key Terms,Recap pack 39,4,Slack|Burndown chart|Burnup chart|Velocity|Backlog grooming|Risk management|Mitigation|Technical debt|Definition of done|Quality gate|Leading without authority|Async|Change request|Postmortem|Sprint Review,,review,199
